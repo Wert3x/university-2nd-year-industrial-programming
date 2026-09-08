@@ -291,11 +291,36 @@ namespace GeneticSearch
 
         static void Main(string[] args)
         {
-            List<Protein> data = ReadData("sequences.0.txt");
-            PrintData(data);
+            string sequencesFile = "sequences.0.txt";
+            string commandsFile = "commands.0.txt";
+            string outputFile = "genedata.txt";
+            string authorName = "Dwight Barnette";
 
-            List<Command> commands = ReadCommands("commands.0.txt");
-            PrintCommands(commands);
+            if (args.Length >= 1)
+                sequencesFile = args[0];
+            if (args.Length >= 2)
+                commandsFile = args[1];
+            if (args.Length >= 3)
+                outputFile = args[2];
+            if (args.Length >= 4)
+                authorName = args[3];
+
+            Console.WriteLine("=== GENETIC SEARCH ===");
+            Console.WriteLine($"Input sequences: {sequencesFile}");
+            Console.WriteLine($"Input commands: {commandsFile}");
+            Console.WriteLine($"Output file: {outputFile}");
+            Console.WriteLine();
+
+            List<Protein> data = ReadData(sequencesFile);
+            Console.WriteLine($"Loaded {data.Count} proteins");
+
+            List<Command> commands = ReadCommands(commandsFile);
+            Console.WriteLine($"Loaded {commands.Count} commands");
+            Console.WriteLine();
+
+            CommandHandler(data, commands, outputFile, authorName);
+
+            Console.WriteLine($"Done! Output written to {outputFile}");
         }
     }
 }

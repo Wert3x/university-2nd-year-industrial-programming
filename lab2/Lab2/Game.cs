@@ -8,21 +8,27 @@ namespace CatAndMouse
         public static string InputFile = "1.ChaseData.txt";
         public static string OutputFile = "PursuitLog.txt";
 
-        public int Size;
+        private int _size;
         public Player cat;
         public Player mouse;
 
         public Game(int size)
         {
-            Size = size;
-            cat = new Player("Cat");
-            mouse = new Player("Mouse");
+            _size = size;
+            cat = new Player("Cat", size);
+            mouse = new Player("Mouse", size);
         }
 
         public void Run()
         {
-            // just basics, need to realise reading files logics
-            Console.WriteLine("Game started, size: " + Size);
+            using (StreamReader reader = new StreamReader(InputFile))
+            {
+                string line = reader.ReadLine();
+                if (line != null) _size = int.Parse(line.Trim());
+                
+                // TODO: Дописать полноценный процессор команд и запись в PursuitLog
+                Console.WriteLine("Board size parsed: " + _size);
+            }
         }
     }
 }

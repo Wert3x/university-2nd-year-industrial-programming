@@ -1,0 +1,35 @@
+Dwight Barnette
+Genetic Searching
+--------------------------------------------------------------------------
+001   search   SIIK
+organism				protein
+NOT FOUND
+--------------------------------------------------------------------------
+002   search   PLML
+organism				protein
+NOT FOUND
+--------------------------------------------------------------------------
+003   search   FK3I
+organism				protein
+NOT FOUND
+--------------------------------------------------------------------------
+004   diff   6.8 kDa mitochondrial proteolipid   Alcohol dehydrogenase
+amino-acids difference:
+MISSING: 6.8 kDa mitochondrial proteolipid
+--------------------------------------------------------------------------
+005   diff   RNA-dependent RNA polymerase [Fragment]   Alcohol dehydrogenase
+amino-acids difference:
+MISSING: RNA-dependent RNA polymerase [Fragment]
+--------------------------------------------------------------------------
+006   diff   Cecropin   Pre-T/NK cell associated protein 6H9A
+amino-acids difference:
+MISSING: Pre-T/NK cell associated protein 6H9A
+--------------------------------------------------------------------------
+007   mode   Cecropin
+amino-acid occurs:
+A          5
+--------------------------------------------------------------------------
+008   mode   Alcohol dehydrogenase
+amino-acid occurs:
+V          11
+--------------------------------------------------------------------------

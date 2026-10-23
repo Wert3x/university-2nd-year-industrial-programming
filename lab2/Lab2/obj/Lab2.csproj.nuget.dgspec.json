@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj": {}
+    "D:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj": {
+    "D:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "D:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "d:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj",
+        "projectPath": "D:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\obj\\",
+        "outputPath": "D:\\Projects\\university-2nd-year-industrial-programming\\lab2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\bin\Debug\net10.0\Lab2.exe
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\bin\Debug\net10.0\Lab2.deps.json
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\bin\Debug\net10.0\Lab2.runtimeconfig.json
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\bin\Debug\net10.0\Lab2.dll
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\bin\Debug\net10.0\Lab2.pdb
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.AssemblyInfoInputs.cache
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.AssemblyInfo.cs
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.csproj.CoreCompileInputs.cache
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.sourcelink.json
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.dll
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\refint\Lab2.dll
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.pdb
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\Lab2.genruntimeconfig.cache
+D:\Projects\university-2nd-year-industrial-programming\lab2\lab2\obj\Debug\net10.0\ref\Lab2.dll
